@@ -26,6 +26,7 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 hwbinder_use(radio)
+add_service(radio, uce_service)
 allow radio mediaextractor_service:service_manager find;
 
 userdebug_or_eng(`
