@@ -30,6 +30,8 @@
 # Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 
+attribute vendor_service;
+
 attribute vendor_hal_hbtp;
 attribute vendor_hal_hbtp_client;
 attribute vendor_hal_hbtp_server;
